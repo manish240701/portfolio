@@ -1,0 +1,77 @@
+#myVideo {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-position: center;
+}
+.bg-video-content {
+    position: relative;
+    top:40%;
+    background: rgba(0, 0, 0, 0.226);
+    color: #f1f1f1;
+    width: 100%;
+    text-align: center;
+}
+.navbar {
+    background-color: rgba(0, 0, 0, 0.479);
+    font-size: 17px;
+}
+
+.link-white{
+    color: rgb(233, 230, 230);
+}
+
+.navbar-right{
+    padding-right: 30px;
+}
+
+.icon-bar{
+    background-color: white;
+}
+
+
+
+.short-bio{
+    font-size: 50px;
+    font-weight:bolder;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(255, 255, 255, 0.884);
+    position: relative;
+    top: 200px;
+}
+span{
+    background-color: white;
+    color: black;
+    padding: 0 10px;
+}
+
+@media only screen and (max-width: 600px) {
+   .short-bio{
+       font-size: 30px;
+   }
+   .solution1{
+       top:300px;
+   }
+  }
+.txt-rotate{
+    position: relative;
+    top: 20px;
+}
+
+.solution1{
+    position: relative;
+    top: 550px;
+}
+@media only screen and (max-width: 1000px) {
+    .short-bio{
+        font-size: 30px;
+    }
+    .solution1{
+        top: 500px;
+    }
+
+}
